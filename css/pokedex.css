@@ -23,7 +23,7 @@ body {
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    max-width: 1000px;
+    max-width: 2000px;
     padding: 20px;
 }
 
@@ -157,11 +157,12 @@ main {
 
 .pokemon_desc {
     position: absolute;
-    bottom: 113px;
-    left: 150%;
-    width: 300px;
-    max-width: 90%;
+    bottom: 380px;
+    left: 600px; /* ou ajuste conforme o layout */
+    width: 275px;
     height: 104px;
+    max-width: 280px;
+    min-width: 280px;
     padding: 12px 15px;
     font-weight: 700;
     color: #fcf9f9;
@@ -177,6 +178,8 @@ main {
     white-space: normal;
     z-index: 3;
 }
+
+
 
 @keyframes flash {
     0% { filter: brightness(1); }
